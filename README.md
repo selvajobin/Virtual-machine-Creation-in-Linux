@@ -115,8 +115,8 @@ chmod +x myscript.sh
 
 ## OUTPUT
 
-### REG NUMBER: 212223230227
-### NAME: T Thrishendra
+### REG NUMBER: 212223220102
+### NAME: Selva Jobin S
 
   # VIRTUAL MACHINE CREATION IN LINUX
 ![WhatsApp Image 2025-03-05 at 10 18 16_f207ffa4](https://github.com/user-attachments/assets/1ff74ab9-312a-489a-a4d0-23ba98156543)
