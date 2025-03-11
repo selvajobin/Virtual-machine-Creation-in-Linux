@@ -1,130 +1,79 @@
  # VIRTUAL MACHINE CREATION IN LINUX
-
-## AIM
-
-To Install Virtualbox / VMware Workstation and execute basic Linux commands like pwd, mkdir, ls, date, cat, and writing a Bash script to perform arithmetic operations and read a file from the terminal.
-
+  ## AIM
+  To Install Virtualbox / VMware Workstation with different flavours of linux.
 ## PROBLEM STATEMENT
+  This experiment involves setting up a virtual machine with CentOS, a popular Linux distribution. This setup allows users to practice Linux commands, test applications, and develop software in a virtualized environment without affecting the host system.
 
-Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
-1. Displaying the current directory, files, and system date.
-2. Reading and displaying file contents.
-3. Performing basic arithmetic operations.
-
-## REQUIREMENTS
-- Oracle VM VirtualBox MAnager
-- Kali Linux
-- Mousepad (Text Editor)
-- Terminal
 
 ## ALGORITHM
- ### Step 1: 
+ ### Steps 1:
  Open the terminal in Kali Linux.
- ### Step 2:
+ ### Steps 2:
  Use basic Linux commands to navigate and manage files.
- ### Step 3:
+ ### Steps 3:
  Create a Bash script using Mousepad.
- ### Step 4:
+ ### Steps 4:
  Write a script that performs arithmetic operations and reads a file.
- ### Step 5:
- Make the script executable.
- ### Step 6:
+ ### Steps 5:
+ Make the script executable. 
+ ### Steps 6:
  Run the script and observe the output.
  
+ NAME: Selva jobin S
+ 
+ 
+REG NO:212223220102
+ 
 ## COMMANDS
+Include the commands used in the Experiment.
 
-###  Execute Basic Linux Commands in the Terminal
-#### Check the Current Working Directory
+check for current working directory:
 ```
 pwd
 ```
-#### Create a New Directory
+make a directory named experiment :
 ```
-mkdir my_experiment
+mkdir experiment
 ```
-
-#### Navigate into the Directory
+change directory to experiment:
 ```
-cd my_experiment
+cd experiment
 ```
-#### List the Files in the Directory
+create a file named, add.sh:
 ```
-ls
+nano add.sh
 ```
-
-#### Write Some Text into the File
+make the file executable:
 ```
-echo "Hello, this is a test file." > myfile.txt
+chmod +x add.sh
 ```
-
-#### Read the File Contents
+rum the file:
 ```
-cat myfile.txt
+./add.sh
 ```
-#### Get the Current Date and Time
+include the code inside the file add.sh:
 ```
-date
-```
-
-###  Writing a Bash Script in Mousepad
-#### Open Mousepad
-```
-mousepad myscript.sh &
+echo enter a:
+read a
+echo enter b:
+read b
+echo the sum is : $((a+b))
 ```
 
-#### Write the Bash Script
+## OUTPUT:
+### Virtualization:
+![image](https://github.com/user-attachments/assets/3be2d025-255b-46d2-b7b6-4aa14412d915)
 
-```
-#!/bin/bash 
+### file input:
+![WhatsApp Image 2025-03-05 at 10 47 55_e910ad60](https://github.com/user-attachments/assets/a4dc9e15-e275-4a9f-b470-3dc007804720)
 
-echo "Current Directory:"
-pwd
-
-echo "Files in this directory:"
-ls
-
-echo "Current Date and Time:"
-date
-
-read -p "Enter first number: " num1
-read -p "Enter second number: " num2
-
-sum=$((num1 + num2))
-diff=$((num1 - num2))
-prod=$((num1 * num2))
-quot=$((num1 / num2))
-rem=$((num1 % num2))
-
-echo "Sum: $sum"
-echo "Difference: $diff"
-echo "Product: $prod"
-echo "Quotient: $quot"
-echo "Remainder: $rem"
-
-
-```
-####  Make the Script Executable
-```
-chmod +x myscript.sh
-```
-
-#### Run the Script
-```
-./myscript.sh
-```
-
-## OUTPUT
-
-### REG NUMBER: 212223220102
-### NAME: Selva Jobin S
-
-  # VIRTUAL MACHINE CREATION IN LINUX
-![WhatsApp Image 2025-03-05 at 10 18 16_f207ffa4](https://github.com/user-attachments/assets/1ff74ab9-312a-489a-a4d0-23ba98156543)
+### script:
+![WhatsApp Image 2025-03-05 at 10 47 56_edc9889d](https://github.com/user-attachments/assets/81f5bbe5-5e9f-4c93-85c8-8897d10f3330)
 
 
 
-## RESULT
-Thus, this experiment helped in understanding the fundamentals of Linux commands and Bash scripting for automation and system management.
+## RESULT:
+we successfully setup a virtual machine and performed some arthematic operations.
 
   
 
