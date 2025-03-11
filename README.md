@@ -2,7 +2,13 @@
   ## AIM
   To Install Virtualbox / VMware Workstation with different flavours of linux.
 ## PROBLEM STATEMENT
-  This experiment involves setting up a virtual machine with CentOS, a popular Linux distribution. This setup allows users to practice Linux commands, test applications, and develop software in a virtualized environment without affecting the host system.
+ Manually executing basic Linux tasks like file management, navigation, and arithmetic operations can be inefficient. This experiment aims to automate these tasks using Bash scripting, including:
+
+Displaying the current directory, files, and system date.
+
+Reading and displaying file contents.
+
+Performing basic arithmetic operations.
 
 
 ## ALGORITHM
